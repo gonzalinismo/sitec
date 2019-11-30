@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+       
+body{
+	background: linear-gradient(90deg, #ffffff 65%, red 0%);	
+}
+
+@media only screen and (min-width: 800px) {
+ 	.carousel{
+		height: 600px !important;
+		perspective: 600px !important;
+	}
+} 
+.main{
+	margin-top: 15px;
+}
+.nav-wrapper{
+	background-color: #121212;
+	height: 100px;	
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	padding-bottom: 10px;
+	
+}
+.sidenav, footer, .collapsible-header{
+	background-color: #121212 !important;
+}
+.sidenav li>a, h3, h2, h4, h5 {
+	color: #FFFFFF;	
+}
+
+.logo{
+	height: 60px;
+}
+.material-icons, .card-action a{
+	color: red !important;		
+}
+
+li a{
+	color: white;
+}
+
+.tab-pane{	
+	background: rgba(0,0,0,0.75);
+	
+
+}
+
+.tab-pane div{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 15px auto;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	margin-top: 10px;
+	
+}
+ .tab-pane div p{
+ 	text-align: justify;
+ }
+
+.card-content p{
+	color: black !important;
+}
+
+.container{
+	width: 90%;
+}
+
+.tab-pane p, .tab-pane h1{
+	color: white;
+}
+
+.responsive-img{
+}
+
+.imgInicio{
+	height: 600px;
+	
+}
+
+
+
+.collapsible-header, .collapsible, .collapsible-body{
+	text-decoration: none;
+	text-align: left;
+	margin: 0 0 !important;
+	border: 0px;
+
+}
